@@ -1,0 +1,10 @@
+Data sources
+https://data.mendeley.com/datasets/86tsnnbv2w/1
+http://www.astronaut.ru/register/register.htm?reload_coolmenus
+https://www.worldspaceflight.com/bios/index.php
+https://www.nasa.gov/humans-in-space/astronauts/
+https://en.roscosmos.ru/
+
+Repositories
+https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-15
+https://github.com/rfordatascience/tidytuesday/tree/2e9bd5a67e09b14d01f616b00f7f7e0931515d24/data/2020/2020-07-14
