@@ -1,0 +1,11 @@
+library(tidyverse)
+library(janitor)
+library(knitr)
+
+astronauts <- read_csv("data/astronauts.csv") %>% 
+  clean_names() %>% 
+  filter(!is.na(number)) %>%  # remove last row (all values are NA)
+  mutate(
+    sex = if_else(sex == "M", "male", "female"),
+    military_civilian = if_else(military_civilian == "Mil", "military", "civilian")
+  )
