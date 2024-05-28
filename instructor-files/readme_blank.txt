@@ -52,6 +52,20 @@ DATA & FILE OVERVIEW
 	B. Why was the file updated? 
 	C. When was the file updated? 
 
+-------------------------
+INSTALL & METHODOLOGY
+-------------------------
+
+<for any source code included, specify the following>
+
+1. Specify software environment(s) used in development. 
+
+2. Specify any software libraries used in development. Add links if necessary. 
+
+3. Explain any other dependencies or external requirements for the program to work properly. 
+
+4. Explain how to run scripts and in what order.
+
 -------------------------------------------
 DATA-SPECIFIC INFORMATION FOR: [FILENAME]
 ------------------------------------------- 
