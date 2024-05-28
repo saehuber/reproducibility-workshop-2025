@@ -25,5 +25,5 @@ In this workshop, you’ll learn about:
   <dd>Initial familiarity with command line tools and a Unix environment may be
 helpful</dd>
   <dt>Registration Max</dt>
-  <dd>50</dd>
+  <dd>100</dd>
 </dl>
