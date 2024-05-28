@@ -64,6 +64,16 @@ Documentation/
 codebook.txt
 corlett_etal_2020.pdf
 
+-------------------------
+INSTALL & METHODOLOGY
+-------------------------
+
+1. Scripts for cleaning and analyzing the data were developed using R version 4.4.0.
+
+2. Required packages:
+tidyverse (1.3.0)
+janitor (2.2.0)
+knitr (1.46)
 
 -------------------------------------------
 DATA-SPECIFIC INFORMATION FOR: agencies.csv
