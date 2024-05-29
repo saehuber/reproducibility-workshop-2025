@@ -30,6 +30,6 @@ helpful</dd>
 
 ## Facilitators
 
-Sarah Huber, UVic Research Computing <sahuber@uvic.ca>
-Shahira Khair, UVic Libraries <skhair@uvic.ca>
-Drew Leske, UVic Research Computing <dleske@uvic.ca> 
+- Sarah Huber, UVic Research Computing <sahuber@uvic.ca>
+- Shahira Khair, UVic Libraries <skhair@uvic.ca>
+- Drew Leske, UVic Research Computing <dleske@uvic.ca> 
