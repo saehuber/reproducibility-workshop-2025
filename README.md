@@ -27,3 +27,9 @@ helpful</dd>
   <dt>Registration Max</dt>
   <dd>100</dd>
 </dl>
+
+## Facilitators
+
+Sarah Huber, UVic Research Computing <sahuber@uvic.ca>
+Shahira Khair, UVic Libraries <skhair@uvic.ca>
+Drew Leske, UVic Research Computing <dleske@uvic.ca> 
