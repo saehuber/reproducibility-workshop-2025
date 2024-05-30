@@ -1,5 +1,7 @@
 #!/bin/bash
-pdflatex manuscript
-biblatex manuscript
-pdflatex manuscript
-pdflatex manuscript
+
+# compile manuscript
+pdflatex manuscript.tex
+bibtex manuscript.aux
+pdflatex manuscript.tex
+pdflatex manuscript.tex

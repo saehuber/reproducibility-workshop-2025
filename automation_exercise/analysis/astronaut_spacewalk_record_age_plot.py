@@ -24,8 +24,10 @@ for year in years:
         # Add the maximum EVA hours to a new column in the original dataframe
         df.loc[curr_max_eva_hours_index,'current_record_eva_hours'] = curr_max_eva_hours
 
+# Calculate astronaut age at mission
 df['age'] = df['year_of_mission'] - df['year_of_birth']
 
+# plot record EVA hours vs year
 plt.rc('text', usetex=True)
 plt.rc('font', family='serif')
 
@@ -42,4 +44,3 @@ cbar = fig.colorbar(h, label='Age')
 # save and show the plot
 plt.tight_layout()
 plt.savefig("spacewalk_record.pdf")
-#plt.show()

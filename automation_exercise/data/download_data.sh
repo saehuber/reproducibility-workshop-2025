@@ -1,7 +1,17 @@
 #!/bin/bash
 
+# create the dataset folder
 mkdir -p dataset
+
+# enter the dataset folder
 cd dataset
-wget https://raw.githubusercontent.com/rfordatascience/tidytuesday/2e9bd5a67e09b14d01f616b00f7f7e0931515d24/data/2020/2020-07-14/astronauts.csv
-wget https://raw.githubusercontent.com/rfordatascience/tidytuesday/2e9bd5a67e09b14d01f616b00f7f7e0931515d24/data/2020/2020-07-14/readme.md
+
+# download the data
+wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2024-06-10-COSS-Reproducible-Research/astronauts_1980.csv
+wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2024-06-10-COSS-Reproducible-Research/readme.md
+
+# change the name of the dataset
+mv astronauts_1980.csv astronauts.csv
+
+# move back to original directory
 cd ..

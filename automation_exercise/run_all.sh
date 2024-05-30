@@ -5,7 +5,7 @@
 # download the data
 cd data
 echo "downloading data"
-#./download_data.sh
+./download_data.sh
 cd ..
 
 # rerun the analysis
@@ -15,7 +15,8 @@ echo "running analysis"
 cd ..
 
 # rerun the paper (after this the paper can be found in the paper folder)
+# send output to log.txt file as there is a lot of output
 cd paper
 echo "compiling paper"
-./compile_manuscript.sh
+./compile_manuscript.sh > log.txt
 cd ..
