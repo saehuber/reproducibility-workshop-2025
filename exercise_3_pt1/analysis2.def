@@ -1,0 +1,16 @@
+Bootstrap: localimage
+From: ../../analysis1.sif
+
+%files
+  source/ /analysis
+
+%runscript
+  /analysis/run_all.sh
+
+%labels
+  Author Drew Leske
+  Co-Authors Sarah Huber, Shahira Khan
+  Version 712
+
+%help
+  Might be a good idea to create a directory for each run and running this container from there.

@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: python:3.11.5
+Stage: build
+
+%post
+        pip install numpy pandas matplotlib jinja2
+        apt update
+        apt install -y texlive texlive-latex-extra texlive-fonts-recommended dvipng cm-super
+
+%runscript
+        python --version
