@@ -1,0 +1,26 @@
+Bootstrap: docker
+From: python:3.11.5
+Stage: build
+
+%post
+  pip install pyfiglet==1.0.2
+
+%runscript
+  pyfiglet "$@"
+
+%test
+  vers=$(pyfiglet --version)
+  if [ $vers = 1.0.2 ]
+  then
+    echo "Correct version of pyfiglet script is available."
+  else
+    echo "It does not appear that the pyfiglet script is available in the correct version."
+    exit 1
+  fi
+
+%help
+  This container runs a Python Figlet script that prints a banner to the console.
+
+%labels
+  Maintainer Drew Leske
+  Version 0.0.1

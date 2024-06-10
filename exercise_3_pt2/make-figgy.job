@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --mem=1G
+
+module load apptainer
+unset APPTAINER_BIND
+apptainer build -F figgy.sif figgy.def
