@@ -17,6 +17,7 @@ In this workshop, you’ll learn about:
 - Writing readable metadata with readme files
 - Automating your workflow with scripts
 - Capture and share your computational environment
+- Using large language models (GenAI) to assist with the above
 
 <dl>
   <dt>Length</dt>
