@@ -1,6 +1,6 @@
 # Reproducible Research: Practices and Tools
 
-Workshop at Compute Ontario Summer School, June 2024.
+Workshop at Compute Ontario Summer School, June 2025.
 
 ## Abstract
 
@@ -24,8 +24,6 @@ In this workshop, you’ll learn about:
   <dt>Prerequisites</dt>
   <dd>Initial familiarity with command line tools and a Unix environment may be
 helpful</dd>
-  <dt>Registration Max</dt>
-  <dd>100</dd>
 </dl>
 
 ## Facilitators
