@@ -7,8 +7,8 @@ mkdir -p dataset
 cd dataset
 
 # download the data
-wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2024-06-10-COSS-Reproducible-Research/astronauts_full.csv
-wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2024-06-10-COSS-Reproducible-Research/readme.md
+wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2025-06-10-COSS-Reproducible-Research/astronauts_full.csv
+wget https://object-arbutus.cloud.computecanada.ca/RCSWorkshopMedia/2025-06-10-COSS-Reproducible-Research/readme.md
 
 # change the name of the dataset
 mv astronauts_full.csv astronauts.csv
